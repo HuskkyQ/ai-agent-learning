@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getArticleDoc, getArticleDocs, getDocMarkdown, renderMarkdown } from "../../lib/content";
+
+export function getStaticPaths() {
+  return getArticleDocs().map((doc) => ({ params: { slug: doc.slug }, props: { doc } }));
+}
+
+const { doc } = Astro.props;
+const html = renderMarkdown(getDocMarkdown(doc));
+---
+
+<BaseLayout title={doc.title} description={doc.description}>
+  <article class="document-layout">
+    <header class="page-header">
+      <p class="eyebrow">Article</p>
+      <h1>{doc.title}</h1>
+      <p>{doc.description}</p>
+    </header>
+    <div class="markdown-body" set:html={html} />
+  </article>
+</BaseLayout>

@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getDocMarkdown, getProjectDocs, renderMarkdown } from "../lib/content";
+
+const docs = getProjectDocs();
+---
+
+<BaseLayout title="最终项目">
+  <header class="page-header">
+    <p class="eyebrow">Final Project</p>
+    <h1>可展示的 Agent 项目沉淀</h1>
+    <p>项目范围、架构、安全策略和评估用例会持续沉淀在这里。</p>
+  </header>
+
+  <div class="stacked-docs">
+    {
+      docs.map((doc) => (
+        <article class="document-layout" id={doc.slug}>
+          <div class="markdown-body" set:html={renderMarkdown(getDocMarkdown(doc))} />
+        </article>
+      ))
+    }
+  </div>
+</BaseLayout>

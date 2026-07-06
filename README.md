@@ -55,3 +55,27 @@ ai-tasks/ai-agent-learning/
 - 日志 / Trace
 - 评估集
 - README 和项目说明
+
+## 静态网站
+
+本仓库已经配置为 Astro 静态站，可以部署到 Vercel。
+
+本地开发：
+
+```bash
+pnpm install
+pnpm run dev
+```
+
+构建验证：
+
+```bash
+pnpm run build
+```
+
+Vercel 导入仓库时使用：
+
+- Framework Preset: `Astro`
+- Install Command: `pnpm install`
+- Build Command: `pnpm run build`
+- Output Directory: `dist`

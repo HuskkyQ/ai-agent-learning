@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getNoteDocs } from "../../lib/content";
+
+const docs = getNoteDocs();
+---
+
+<BaseLayout title="学习笔记">
+  <header class="page-header">
+    <p class="eyebrow">Notes</p>
+    <h1>学习笔记与复盘</h1>
+    <p>记录每天完成内容、问题、理解和下一步。</p>
+  </header>
+
+  <div class="card-grid">
+    {
+      docs.map((doc) => (
+        <a class="doc-card" href={doc.href}>
+          <span>{doc.section}</span>
+          <strong>{doc.title}</strong>
+          <p>{doc.description}</p>
+        </a>
+      ))
+    }
+  </div>
+</BaseLayout>

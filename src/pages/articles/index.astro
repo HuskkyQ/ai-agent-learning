@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getArticleDocs } from "../../lib/content";
+
+const docs = getArticleDocs();
+---
+
+<BaseLayout title="长文资料">
+  <header class="page-header">
+    <p class="eyebrow">Articles</p>
+    <h1>外部资料中文整理</h1>
+    <p>按学习路线沉淀的 Agent 相关长文、页面结构版和中文解析。</p>
+  </header>
+
+  <div class="card-grid">
+    {
+      docs.map((doc) => (
+        <a class="doc-card" href={doc.href}>
+          <span>{doc.section}</span>
+          <strong>{doc.title}</strong>
+          <p>{doc.description}</p>
+        </a>
+      ))
+    }
+  </div>
+</BaseLayout>

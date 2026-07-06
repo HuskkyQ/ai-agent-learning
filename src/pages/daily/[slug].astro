@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getDailyDocs,
+  getDailyExtras,
+  getDocMarkdown,
+  renderMarkdown
+} from "../../lib/content";
+
+export function getStaticPaths() {
+  return getDailyDocs().map((doc) => {
+    const slug = doc.href.split("/").filter(Boolean).at(-1);
+    return { params: { slug }, props: { doc } };
+  });
+}
+
+const { doc } = Astro.props;
+const slug = Astro.params.slug ?? "";
+const extras = getDailyExtras(slug);
+const html = renderMarkdown(getDocMarkdown(doc));
+---
+
+<BaseLayout title={doc.title} description={doc.description}>
+  <article class="document-layout">
+    <header class="page-header">
+      <p class="eyebrow">Daily</p>
+      <h1>{doc.title}</h1>
+      <p>{doc.description}</p>
+    </header>
+
+    {extras.length > 0 && (
+      <aside class="related-strip">
+        <strong>补充阅读</strong>
+        <div>
+          {extras.map((item) => <a href={item.href}>{item.title}</a>)}
+        </div>
+      </aside>
+    )}
+
+    <div class="markdown-body" set:html={html} />
+  </article>
+</BaseLayout>

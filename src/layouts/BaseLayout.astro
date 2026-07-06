@@ -1,0 +1,62 @@
+---
+import "../styles/global.css";
+
+type Props = {
+  title: string;
+  description?: string;
+};
+
+const { title, description = "30 天 AI Agent 开发学习路线、笔记、资料和最终项目沉淀。" } =
+  Astro.props;
+
+const navItems = [
+  { href: "/", label: "总览" },
+  { href: "/daily/", label: "每日计划" },
+  { href: "/articles/", label: "长文资料" },
+  { href: "/notes/", label: "学习笔记" },
+  { href: "/resources/", label: "资源" },
+  { href: "/project/", label: "最终项目" }
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title} · AI Agent Learning</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="sidebar" aria-label="站点导航">
+        <a class="brand" href="/">
+          <span class="brand-mark">AL</span>
+          <span>
+            <strong>AI Agent Learning</strong>
+            <small>30 天工程化学习路线</small>
+          </span>
+        </a>
+        <nav class="nav-list">
+          {
+            navItems.map((item) => (
+              <a
+                href={item.href}
+                class:list={[{ active: currentPath === item.href || (item.href !== "/" && currentPath.startsWith(item.href)) }]}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+      </aside>
+      <div class="page-frame">
+        <main>
+          <slot />
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getDailyDocs } from "../../lib/content";
+
+const docs = getDailyDocs();
+---
+
+<BaseLayout title="每日计划">
+  <header class="page-header">
+    <p class="eyebrow">Daily Plan</p>
+    <h1>30 天学习路线</h1>
+    <p>每天一个明确主题、一个实践任务、一个可检查产出。</p>
+  </header>
+
+  <div class="daily-grid">
+    {
+      docs.map((doc) => (
+        <a class="day-tile" href={doc.href}>
+          <span>{doc.slug.match(/^day\d+/)?.[0]?.toUpperCase()}</span>
+          <strong>{doc.title.replace(/^Day\s+\d+[:：]\s*/i, "")}</strong>
+          <p>{doc.description}</p>
+        </a>
+      ))
+    }
+  </div>
+</BaseLayout>

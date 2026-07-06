@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getArticleDocs, getDailyDocs, getNoteDocs, getStats } from "../lib/content";
+
+const dailyDocs = getDailyDocs();
+const articles = getArticleDocs();
+const notes = getNoteDocs();
+const stats = getStats();
+const firstWeek = dailyDocs.slice(0, 7);
+---
+
+<BaseLayout title="学习总览">
+  <section class="hero-panel">
+    <div>
+      <p class="eyebrow">Agent Development Roadmap</p>
+      <h1>把 30 天 Agent 学习路线做成可发布的静态知识站。</h1>
+      <p class="hero-copy">
+        这里整理每日学习计划、原文资料中文整理、学习笔记、评估集和最终项目文档。目标是把零散 Markdown 变成可持续迭代、可展示、可部署的学习作品。
+      </p>
+    </div>
+    <div class="status-strip" aria-label="内容统计">
+      <div><strong>{stats.days}</strong><span>天计划</span></div>
+      <div><strong>{stats.articles}</strong><span>长文资料</span></div>
+      <div><strong>{stats.notes}</strong><span>学习笔记</span></div>
+      <div><strong>{stats.projectDocs}</strong><span>项目文档</span></div>
+    </div>
+  </section>
+
+  <section class="section-grid">
+    <div>
+      <div class="section-heading">
+        <p class="eyebrow">Week 01</p>
+        <h2>第一周：Agent 基础</h2>
+      </div>
+      <div class="timeline-list">
+        {firstWeek.map((doc) => <a href={doc.href}><span>{doc.slug.slice(0, 5).toUpperCase()}</span>{doc.title}</a>)}
+      </div>
+    </div>
+    <div>
+      <div class="section-heading">
+        <p class="eyebrow">Reading</p>
+        <h2>新增长文资料</h2>
+      </div>
+      <div class="card-list">
+        {
+          articles.slice(0, 4).map((doc) => (
+            <a class="doc-card compact" href={doc.href}>
+              <span>{doc.section}</span>
+              <strong>{doc.title}</strong>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <p class="eyebrow">Notes</p>
+      <h2>最近笔记</h2>
+    </div>
+    <div class="card-grid">
+      {
+        notes.slice(0, 3).map((doc) => (
+          <a class="doc-card" href={doc.href}>
+            <span>{doc.section}</span>
+            <strong>{doc.title}</strong>
+            <p>{doc.description}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
