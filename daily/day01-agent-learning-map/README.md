@@ -27,16 +27,17 @@
 
 完成内容：
 
-- 
+- 补充并完善 `notes/day01-agent-basic.md`，重点解释 Agent 和普通聊天机器人的区别。
+- 明确了 chatbot、workflow、agent、multi-agent 的边界。
 
 遇到的问题：
 
-- 
+- 原回答方向正确，但对 `observe -> think -> act -> observe` 循环解释不够完整。
 
 我的理解：
 
-- 
+- Agent 的关键不是多轮聊天，而是在目标驱动下观察状态、思考下一步、调用工具执行动作，再根据反馈修正行为。
 
 下一步：
 
-- 
+- 后续学习 Tool Calling 时，把这个循环落实到一个最小 Agent Loop 代码里。
