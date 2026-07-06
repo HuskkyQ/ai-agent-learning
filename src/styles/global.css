@@ -217,6 +217,19 @@ section,
   margin-bottom: 18px;
 }
 
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+}
+
+.week-panel {
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
 .timeline-list,
 .card-list {
   display: grid;

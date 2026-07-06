@@ -6,7 +6,33 @@ const dailyDocs = getDailyDocs();
 const articles = getArticleDocs();
 const notes = getNoteDocs();
 const stats = getStats();
-const firstWeek = dailyDocs.slice(0, 7);
+const learningBlocks = [
+  {
+    label: "Week 01",
+    title: "Agent 基础",
+    docs: dailyDocs.slice(0, 7)
+  },
+  {
+    label: "Week 02",
+    title: "RAG 与知识库",
+    docs: dailyDocs.slice(7, 14)
+  },
+  {
+    label: "Week 03",
+    title: "LangChain / LangGraph",
+    docs: dailyDocs.slice(14, 21)
+  },
+  {
+    label: "Week 04",
+    title: "最终项目工程化",
+    docs: dailyDocs.slice(21, 28)
+  },
+  {
+    label: "Review",
+    title: "发布与月度复盘",
+    docs: dailyDocs.slice(28)
+  }
+].filter((block) => block.docs.length > 0);
 ---
 
 <BaseLayout title="学习总览">
@@ -26,15 +52,43 @@ const firstWeek = dailyDocs.slice(0, 7);
     </div>
   </section>
 
+  <section>
+    <div class="section-heading">
+      <p class="eyebrow">Roadmap</p>
+      <h2>30 天路线全览</h2>
+    </div>
+    <div class="week-grid">
+      {
+        learningBlocks.map((block) => (
+          <div class="week-panel">
+            <div class="section-heading">
+              <p class="eyebrow">{block.label}</p>
+              <h2>{block.title}</h2>
+            </div>
+            <div class="timeline-list">
+              {block.docs.map((doc) => (
+                <a href={doc.href}>
+                  <span>{doc.slug.slice(0, 5).toUpperCase()}</span>
+                  {doc.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
   <section class="section-grid">
     <div>
       <div class="section-heading">
-        <p class="eyebrow">Week 01</p>
-        <h2>第一周：Agent 基础</h2>
+        <p class="eyebrow">Plan</p>
+        <h2>完整学习计划</h2>
       </div>
-      <div class="timeline-list">
-        {firstWeek.map((doc) => <a href={doc.href}><span>{doc.slug.slice(0, 5).toUpperCase()}</span>{doc.title}</a>)}
-      </div>
+      <a class="doc-card compact" href="/plan/">
+        <span>30 day plan</span>
+        <strong>查看完整 30 天学习计划</strong>
+      </a>
     </div>
     <div>
       <div class="section-heading">
