@@ -1,12 +1,22 @@
 # Day 18: LangChain Agent
 
-## 上午：学习新内容
+## 今日目标
 
-- 学习 LangChain Agent 的最小使用方式。
+- LangChain Agent
 
-## 下午：实践任务
+## 任务清单
 
-- 做一个可以调用 calculator 和 knowledge_search 的 Agent。
+### 1. 学习任务
+
+- [ ] 学习 LangChain Agent 的最小使用方式。
+
+### 2. 实践任务
+
+- [ ] 做一个可以调用 calculator 和 knowledge_search 的 Agent。
+
+### 3. 需要回答/完成的问题
+
+- 完成实践任务：做一个可以调用 calculator 和 knowledge_search 的 Agent。
 
 ## 学习物料
 
@@ -22,18 +32,24 @@
 
 ## 今日记录
 
+完成状态：
+
+- [ ] 已完成任务清单
+- [ ] 已完成产出文件
+- [ ] 已达到验收标准
+
 完成内容：
 
 - 
 
-遇到的问题：
+遇到的问题（自由记录）：
 
 - 
 
-我的理解：
+我的理解（自由记录）：
 
 - 
 
-下一步：
+## 下一步
 
-- 
+- 明天进入 Day 19：LangGraph 入门。先打开 `daily/day19-langgraph-basic/README.md`，按任务清单继续完成。

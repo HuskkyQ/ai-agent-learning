@@ -1,12 +1,22 @@
 # Day 17: LangChain Tools
 
-## 上午：学习新内容
+## 今日目标
 
-- 学习 LangChain tool 定义。
+- LangChain Tools
 
-## 下午：实践任务
+## 任务清单
 
-- 把 calculator、knowledge_search 封装成 LangChain tools。
+### 1. 学习任务
+
+- [ ] 学习 LangChain tool 定义。
+
+### 2. 实践任务
+
+- [ ] 把 calculator、knowledge_search 封装成 LangChain tools。
+
+### 3. 需要回答/完成的问题
+
+- 完成实践任务：把 calculator、knowledge_search 封装成 LangChain tools。
 
 ## 学习物料
 
@@ -23,18 +33,24 @@
 
 ## 今日记录
 
+完成状态：
+
+- [ ] 已完成任务清单
+- [ ] 已完成产出文件
+- [ ] 已达到验收标准
+
 完成内容：
 
 - 
 
-遇到的问题：
+遇到的问题（自由记录）：
 
 - 
 
-我的理解：
+我的理解（自由记录）：
 
 - 
 
-下一步：
+## 下一步
 
-- 
+- 明天进入 Day 18：LangChain Agent。先打开 `daily/day18-langchain-agent/README.md`，按任务清单继续完成。

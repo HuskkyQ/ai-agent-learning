@@ -1,13 +1,23 @@
 # Day 5: Tool Calling 基础
 
-## 上午：学习新内容
+## 今日目标
 
-- 阅读 Agent-Learning-Hub Stage 1。
-- 理解工具函数、工具参数、工具返回值。
+- Tool Calling 基础
 
-## 下午：实践任务
+## 任务清单
 
-- 写 2 个工具：calculator、get_current_time。
+### 1. 学习任务
+
+- [ ] 阅读 Agent-Learning-Hub Stage 1。
+- [ ] 理解工具函数、工具参数、工具返回值。
+
+### 2. 实践任务
+
+- [ ] 写 2 个工具：calculator、get_current_time。
+
+### 3. 需要回答/完成的问题
+
+- 完成今天的代码或文档产出，并写下它验证了哪个 Agent 能力。
 
 ## 学习物料
 
@@ -24,18 +34,24 @@
 
 ## 今日记录
 
+完成状态：
+
+- [ ] 已完成任务清单
+- [ ] 已完成产出文件
+- [ ] 已达到验收标准
+
 完成内容：
 
 - 
 
-遇到的问题：
+遇到的问题（自由记录）：
 
 - 
 
-我的理解：
+我的理解（自由记录）：
 
 - 
 
-下一步：
+## 下一步
 
-- 
+- 明天进入 Day 6：手写最小 Agent Loop。先打开 `daily/day06-minimal-agent-loop/README.md`，按任务清单继续完成。
