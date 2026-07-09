@@ -23,8 +23,12 @@
 
 ## 学习物料
 
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
+按这个顺序阅读：
+
+1. [OpenAI: Vector embeddings](https://developers.openai.com/api/docs/guides/embeddings)：重点看 embedding 的输入、输出和适用场景。
+2. [LangChain JS: Embedding integrations](https://docs.langchain.com/oss/javascript/integrations/embeddings)：了解 embedding model 在 LangChain 里的接口。
+3. [LangChain JS: Vector stores](https://docs.langchain.com/oss/javascript/integrations/vectorstores)：学习本地向量库和 similarity search 的基本用法。
+4. [LangChain JS: Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)：把 embedding、vector store、retriever 串起来理解。
 
 ## 产出位置
 

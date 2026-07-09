@@ -21,8 +21,12 @@
 
 ## 学习物料
 
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [LangChain JS: Tools](https://docs.langchain.com/oss/javascript/langchain/tools)：重点看 tool 名称、description、schema、返回值。
+2. [OpenAI: Function calling](https://developers.openai.com/api/docs/guides/function-calling)：理解工具调用为什么需要参数 schema。
+3. [Anthropic: Writing Tools for Agents](https://www.anthropic.com/engineering/writing-tools-for-agents)：学习怎样写清楚工具说明和参数，减少误调用。
+4. [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)：对照 Stage 1 的工具调用入门内容。
 
 ## 产出位置
 

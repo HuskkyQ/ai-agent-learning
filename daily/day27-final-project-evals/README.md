@@ -22,8 +22,12 @@
 
 ## 学习物料
 
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [Anthropic: Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)：重点学习如何构造评估集和用失败案例驱动改进。
+2. [LangSmith Observability for LangChain JS](https://docs.langchain.com/oss/javascript/langchain/observability)：学习 trace 如何辅助 eval 和 debug。
+3. [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)：对照 Stage 7 的评估方向。
+4. [AgentGuide](https://github.com/adongwanai/AgentGuide)：参考 Eval / Observability / Safety 方向。
 
 ## 产出位置
 

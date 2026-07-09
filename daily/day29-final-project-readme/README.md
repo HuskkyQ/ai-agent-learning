@@ -20,7 +20,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [AgentGuide](https://github.com/adongwanai/AgentGuide)：参考项目表达、简历亮点和展示方式。
+2. [LangGraph JS: Application structure](https://docs.langchain.com/oss/javascript/langgraph/application-structure)：参考项目结构说明。
+3. [LangChain JS: Deployment](https://docs.langchain.com/oss/javascript/langchain/deploy)：参考运行、部署、环境变量说明怎么写。
+4. [GitHub Docs: About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)：参考 README 应该包含哪些信息。
 
 ## 产出位置
 

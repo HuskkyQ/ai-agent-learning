@@ -20,7 +20,12 @@
 
 ## 学习物料
 
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Models](https://docs.langchain.com/oss/javascript/langchain/models)：复习 invoke、batch、stream 的调用方式。
+2. [LangChain JS: Streaming](https://docs.langchain.com/oss/javascript/langchain/streaming)：重点看流式输出和事件流。
+3. [LangChain JS: Messages](https://docs.langchain.com/oss/javascript/langchain/messages)：理解 chain 中输入输出仍然是 messages。
+4. [LangChain JS: Overview](https://docs.langchain.com/oss/javascript/langchain/overview)：回到整体框架，理解 model、prompt、tools 的组合。
 
 ## 产出位置
 

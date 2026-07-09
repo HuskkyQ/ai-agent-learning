@@ -20,9 +20,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
-- [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Overview](https://docs.langchain.com/oss/javascript/langchain/overview)：复盘 LangChain 适合做什么。
+2. [LangGraph JS: Overview](https://docs.langchain.com/oss/javascript/langgraph/overview)：复盘 LangGraph 适合做什么。
+3. [LangGraph JS: Workflows and agents](https://docs.langchain.com/oss/javascript/langgraph/workflows-agents)：对比 workflow、agent、graph 三种组织方式。
+4. [AgentGuide](https://github.com/adongwanai/AgentGuide)：用岗位能力视角写技术选型笔记。
 
 ## 产出位置
 

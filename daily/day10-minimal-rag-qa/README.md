@@ -20,7 +20,11 @@
 
 ## 学习物料
 
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)：重点看如何把检索结果交给模型生成答案。
+2. [LangChain JS: Messages](https://docs.langchain.com/oss/javascript/langchain/messages)：复习如何把 context 注入 user message 或 prompt。
+3. [OpenAI: Vector embeddings](https://developers.openai.com/api/docs/guides/embeddings)：复习 embedding 和相似度检索的基本概念。
 
 ## 产出位置
 

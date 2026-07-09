@@ -21,8 +21,12 @@
 
 ## 学习物料
 
-- [LangGraph](https://github.com/langchain-ai/langgraph)
-- [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
+按这个顺序阅读：
+
+1. [LangGraph JS: Overview](https://docs.langchain.com/oss/javascript/langgraph/overview)：先理解 LangGraph 是低层 orchestration framework。
+2. [LangGraph JS: Quickstart](https://docs.langchain.com/oss/javascript/langgraph/quickstart)：跟着计算器 agent 示例理解 State、Node、Edge。
+3. [LangGraph JS: Graph API](https://docs.langchain.com/oss/javascript/langgraph/graph-api)：重点看 StateGraph、node、edge 的定义。
+4. [LangGraph GitHub](https://github.com/langchain-ai/langgraph)：查看源码仓库和示例入口。
 
 ## 产出位置
 

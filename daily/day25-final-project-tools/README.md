@@ -20,8 +20,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
-- [ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero)
+按这个顺序阅读：
+
+1. [LangChain JS: Tools](https://docs.langchain.com/oss/javascript/langchain/tools)：给最终项目新增工具时重点看 schema、description、错误处理。
+2. [LangChain JS: Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)：如果加知识库工具，复习 RAG 检索链路。
+3. [Anthropic: Writing Tools for Agents](https://www.anthropic.com/engineering/writing-tools-for-agents)：用工具设计原则优化最终项目工具。
+4. [ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero)：参考真实工具和项目组织方式。
 
 ## 产出位置
 

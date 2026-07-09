@@ -20,7 +20,12 @@
 
 ## 学习物料
 
-- 前 23 天的代码和笔记
+按这个顺序阅读：
+
+1. [Day 22 scope README](../day22-final-project-scope/README.md)：先回看最终项目范围，避免 MVP 发散。
+2. [Day 23 architecture README](../day23-final-project-architecture/README.md)：按架构图实现最小闭环。
+3. [LangChain JS: Quickstart](https://docs.langchain.com/oss/javascript/langchain/quickstart)：参考最小 Agent 项目实现方式。
+4. [LangChain JS: Deployment](https://docs.langchain.com/oss/javascript/langchain/deploy)：只看项目结构和上线前准备，不急着部署。
 
 ## 产出位置
 

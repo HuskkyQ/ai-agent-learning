@@ -20,9 +20,13 @@
 
 ## 学习物料
 
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
-- 全部学习记录
+按这个顺序阅读：
+
+1. [全部 daily README](../day01-agent-learning-map/README.md)：从 Day 1 开始回顾目标、任务、验收标准和今日记录。
+2. [全部 notes](../../notes/learning-log.md)：回顾所有笔记、复盘和学习日志。
+3. [OpenAI: A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)：用完整 Agent 视角检查自己还缺哪些能力。
+4. [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)：复盘 workflow、agent、tools、eval 的整体理解。
+5. [AgentGuide](https://github.com/adongwanai/AgentGuide)：用岗位能力表规划下一个 30 天。
 
 ## 产出位置
 

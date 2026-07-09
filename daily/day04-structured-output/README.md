@@ -21,7 +21,11 @@
 
 ## 学习物料
 
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Structured output](https://docs.langchain.com/oss/javascript/langchain/structured-output)：重点看 responseFormat、Zod schema 和 structuredResponse。
+2. [OpenAI: Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs)：理解 JSON schema、function calling 和结构化输出的区别。
+3. [Zod documentation](https://zod.dev/)：查 schema 字段、类型、optional、enum 的写法。
 
 ## 产出位置
 

@@ -20,7 +20,11 @@
 
 ## 学习物料
 
-- [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
+按这个顺序阅读：
+
+1. [LangGraph JS: Workflows and agents](https://docs.langchain.com/oss/javascript/langgraph/workflows-agents)：理解 workflow 和 agent 的区别，以及分支流程。
+2. [LangGraph JS: Quickstart](https://docs.langchain.com/oss/javascript/langgraph/quickstart)：参考 conditional edge 的工具调用循环。
+3. [LangGraph JS: Thinking in LangGraph](https://docs.langchain.com/oss/javascript/langgraph/thinking-in-langgraph)：学习如何把任务拆成节点和状态转移。
 
 ## 产出位置
 

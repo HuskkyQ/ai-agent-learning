@@ -21,8 +21,12 @@
 
 ## 学习物料
 
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
-- [hello-agents](https://github.com/datawhalechina/hello-agents)
+按这个顺序阅读：
+
+1. [LangChain JS: Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)：先理解 RAG、embedding model、vector store、retriever。
+2. [OpenAI: Vector embeddings](https://developers.openai.com/api/docs/guides/embeddings)：理解文本如何变成向量，以及向量搜索能解决什么。
+3. [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)：对照 Stage 2 的 RAG 学习路线。
+4. [hello-agents](https://github.com/datawhalechina/hello-agents)：参考 RAG 入门项目组织方式。
 
 ## 产出位置
 

@@ -20,7 +20,11 @@
 
 ## 学习物料
 
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Agents](https://docs.langchain.com/oss/javascript/langchain/agents)：重点看 createAgent、tools、structured output 和 middleware。
+2. [LangChain JS: Short-term memory](https://docs.langchain.com/oss/javascript/langchain/short-term-memory)：理解同一线程中的 memory / checkpointer。
+3. [LangChain JS: Observability](https://docs.langchain.com/oss/javascript/langchain/observability)：学会看 agent 执行 trace。
 
 ## 产出位置
 

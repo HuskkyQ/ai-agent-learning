@@ -22,8 +22,12 @@
 
 ## 学习物料
 
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
-- [hello-agents](https://github.com/datawhalechina/hello-agents)
+按这个顺序阅读：
+
+1. [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)：先看 How To Use、What To Learn Now、Stage 0，建立学习地图。
+2. [hello-agents](https://github.com/datawhalechina/hello-agents)：浏览项目介绍，理解入门 Agent 示例会做什么。
+3. [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)：理解 workflow、agent、tools、multi-agent 的边界。
+4. [OpenAI: A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)：补充 Agent 在真实业务中的组成和落地方式。
 
 ## 产出位置
 

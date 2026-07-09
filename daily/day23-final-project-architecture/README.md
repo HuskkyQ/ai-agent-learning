@@ -20,8 +20,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
-- [LangGraph Docs](https://docs.langchain.com/oss/python/langgraph/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Agents](https://docs.langchain.com/oss/javascript/langchain/agents)：参考 Agent = Model + Harness 的架构。
+2. [LangGraph JS: Application structure](https://docs.langchain.com/oss/javascript/langgraph/application-structure)：参考项目文件结构、graph 配置和部署准备。
+3. [LangGraph JS: Workflows and agents](https://docs.langchain.com/oss/javascript/langgraph/workflows-agents)：决定架构中哪些部分用固定流程，哪些部分交给 agent。
+4. [AgentGuide](https://github.com/adongwanai/AgentGuide)：对照 model、tools、state、memory、trace、eval 设计架构图。
 
 ## 产出位置
 

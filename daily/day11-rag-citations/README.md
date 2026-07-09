@@ -21,8 +21,11 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)：学习 document metadata、retriever 和回答引用的关系。
+2. [OpenAI: A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)：参考知识、工具和可追溯回答在 Agent 中的位置。
+3. [AgentGuide](https://github.com/adongwanai/AgentGuide)：查 RAG、引用、可观测相关内容。
 
 ## 产出位置
 

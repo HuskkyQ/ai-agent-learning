@@ -33,9 +33,12 @@
 
 ## 学习物料
 
-- [LangChain JS Docs](https://docs.langchain.com/oss/javascript/langchain/overview)
-- [LangChain OpenAI-compatible models](https://docs.langchain.com/oss/javascript/integrations/chat/openai)
-- [DeepSeek API Docs](https://api-docs.deepseek.com/)
+按这个顺序阅读：
+
+1. [LangChain JS: Messages](https://docs.langchain.com/oss/javascript/langchain/messages)：重点看 system / user / assistant / tool message 和 token usage。
+2. [LangChain JS: Models](https://docs.langchain.com/oss/javascript/langchain/models)：了解 chat model 调用、参数和返回值。
+3. [LangChain OpenAI integration](https://docs.langchain.com/oss/javascript/integrations/chat/openai)：看如何用 OpenAI 兼容接口接入模型。
+4. [DeepSeek API Docs](https://api-docs.deepseek.com/)：确认 DeepSeek base URL、模型名和 API Key 用法。
 
 ## 产出位置
 

@@ -20,8 +20,11 @@
 
 ## 学习物料
 
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [LangChain JS: Tools](https://docs.langchain.com/oss/javascript/langchain/tools)：重点看如何定义 tool、schema、context 和错误处理。
+2. [Anthropic: Writing Tools for Agents](https://www.anthropic.com/engineering/writing-tools-for-agents)：学习工具命名、参数说明和 eval 驱动优化。
+3. [AgentGuide](https://github.com/adongwanai/AgentGuide)：对照 Tool Calling 和工程能力。
 
 ## 产出位置
 

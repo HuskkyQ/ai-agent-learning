@@ -20,8 +20,12 @@
 
 ## 学习物料
 
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [Week 2 daily READMEs](../day08-rag-basic/README.md)：从 Day 8 开始复盘 RAG 基础、embedding、QA、引用和失败案例。
+2. [LangChain JS: Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)：用官方概念复核自己的 RAG 理解。
+3. [Anthropic: Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)：复盘失败案例和评估方法。
+4. [AgentGuide](https://github.com/adongwanai/AgentGuide)：对照 RAG 项目表达和复盘维度。
 
 ## 产出位置
 

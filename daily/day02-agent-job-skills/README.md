@@ -28,8 +28,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
-- [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)
+按这个顺序阅读：
+
+1. [AgentGuide](https://github.com/adongwanai/AgentGuide)：重点看目录、适合人群、Agent 工程能力和项目表达。
+2. [Agent-Learning-Hub](https://github.com/datawhalechina/Agent-Learning-Hub)：对照学习路线，标出自己已会和待补的技能。
+3. [OpenAI: A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)：理解 Agent 开发岗更关注应用工程、工具、流程和评估。
+4. [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)：理解简单 workflow 与自主 agent 的取舍。
 
 ## 产出位置
 

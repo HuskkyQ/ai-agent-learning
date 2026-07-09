@@ -21,7 +21,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [Day 1 README](../day01-agent-learning-map/README.md)：复盘 Agent 学习地图和 Agent vs Chatbot。
+2. [Day 3 note](../../notes/day03-llm-api-messages.md)：复盘 LLM API、messages 和 DeepSeek 示例。
+3. [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)：用官方文章校准自己对 workflow / agent 的理解。
+4. [AgentGuide](https://github.com/adongwanai/AgentGuide)：对照岗位能力，看第一周还缺什么。
 
 ## 产出位置
 

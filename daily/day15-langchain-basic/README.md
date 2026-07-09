@@ -21,7 +21,12 @@
 
 ## 学习物料
 
-- [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
+按这个顺序阅读：
+
+1. [LangChain JS: Overview](https://docs.langchain.com/oss/javascript/langchain/overview)：先看 LangChain 的核心定位和 createAgent 示例。
+2. [LangChain JS: Quickstart](https://docs.langchain.com/oss/javascript/langchain/quickstart)：跟着快速开始写第一个 LangChain Agent。
+3. [LangChain JS: Models](https://docs.langchain.com/oss/javascript/langchain/models)：理解 Chat Model 的统一接口。
+4. [LangChain JS: Structured output](https://docs.langchain.com/oss/javascript/langchain/structured-output)：为后续 output parser / schema 做准备。
 
 ## 产出位置
 

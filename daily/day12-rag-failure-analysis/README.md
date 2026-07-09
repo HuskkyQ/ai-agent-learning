@@ -21,7 +21,11 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [Anthropic: Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)：学习为什么要系统记录失败案例。
+2. [LangSmith Observability for LangChain JS](https://docs.langchain.com/oss/javascript/langchain/observability)：理解 trace 如何帮助定位检索失败、工具失败和模型失败。
+3. [AgentGuide](https://github.com/adongwanai/AgentGuide)：对照 RAG、Eval、Observability 方向补充失败分析维度。
 
 ## 产出位置
 

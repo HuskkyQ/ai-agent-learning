@@ -20,8 +20,12 @@
 
 ## 学习物料
 
-- [hello-agents](https://github.com/datawhalechina/hello-agents)
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [LangChain JS: Tools](https://docs.langchain.com/oss/javascript/langchain/tools)：把 RAG 检索封装成工具时重点看 schema 和返回值。
+2. [LangChain JS: Retrieval](https://docs.langchain.com/oss/javascript/langchain/retrieval)：复习 RAG 检索链路。
+3. [LangChain JS: Agents](https://docs.langchain.com/oss/javascript/langchain/agents)：理解 agent 如何决定是否调用知识库工具。
+4. [hello-agents](https://github.com/datawhalechina/hello-agents)：参考 Agent + RAG 示例。
 
 ## 产出位置
 

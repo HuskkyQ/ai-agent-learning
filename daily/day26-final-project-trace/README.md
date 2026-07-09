@@ -20,7 +20,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [LangChain JS: Observability](https://docs.langchain.com/oss/javascript/langchain/observability)：学习如何记录和查看 agent trace。
+2. [LangGraph JS: LangSmith Observability](https://docs.langchain.com/oss/javascript/langgraph/observability)：了解图执行中的 trace、debug 和 monitoring。
+3. [Anthropic: Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)：理解日志和 trace 如何服务 eval。
+4. [AgentGuide](https://github.com/adongwanai/AgentGuide)：对照可观测性和工程化要求补日志字段。
 
 ## 产出位置
 

@@ -21,8 +21,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
-- [ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero)
+按这个顺序阅读：
+
+1. [OpenAI: A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)：用业务价值、工具、知识、评估来筛选项目范围。
+2. [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)：判断最终项目该用 workflow 还是 agent。
+3. [AgentGuide](https://github.com/adongwanai/AgentGuide)：参考项目落地和简历表达。
+4. [ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero)：参考项目目录和案例组织方式。
 
 ## 产出位置
 

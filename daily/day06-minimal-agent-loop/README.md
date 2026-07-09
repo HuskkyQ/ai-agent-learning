@@ -21,8 +21,12 @@
 
 ## 学习物料
 
-- [hello-agents](https://github.com/datawhalechina/hello-agents)
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [LangChain JS: Agents](https://docs.langchain.com/oss/javascript/langchain/agents)：理解 agent loop：模型选择工具、执行、观察、继续。
+2. [ReAct paper](https://arxiv.org/abs/2210.03629)：理解 Thought / Action / Observation 的原始思路。
+3. [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents)：对照什么时候该用 agent，什么时候该用 workflow。
+4. [hello-agents](https://github.com/datawhalechina/hello-agents)：参考入门代码组织方式。
 
 ## 产出位置
 

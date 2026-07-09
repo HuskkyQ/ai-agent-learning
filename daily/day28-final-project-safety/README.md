@@ -21,7 +21,12 @@
 
 ## 学习物料
 
-- [AgentGuide](https://github.com/adongwanai/AgentGuide)
+按这个顺序阅读：
+
+1. [LangChain JS: Guardrails](https://docs.langchain.com/oss/javascript/langchain/guardrails)：学习输入、输出和工具调用边界。
+2. [LangChain JS: Human-in-the-loop](https://docs.langchain.com/oss/javascript/langchain/human-in-the-loop)：学习危险动作如何加人工确认。
+3. [OpenAI: A Practical Guide to Building AI Agents](https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/)：参考 guardrails、human oversight、handoff 的设计思路。
+4. [AgentGuide](https://github.com/adongwanai/AgentGuide)：对照安全、权限和边界要求。
 
 ## 产出位置
 
