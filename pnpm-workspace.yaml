@@ -1,3 +1,6 @@
+packages:
+  - "projects/day03_cli_chat"
+
 allowBuilds:
   esbuild: true
   sharp: true
